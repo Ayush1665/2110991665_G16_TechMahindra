@@ -48,7 +48,5 @@ do{
   a++;
 }while(i<10);
 
-// DOM ( Document Object Model )   html code to tree like structure
+// DOM ( Document Object Model )  Html code to tree like structure
 // Any page is a document and window is a parent of document
-
-
