@@ -18,7 +18,7 @@ for(let i=0;i<=5;i++){
   console.log(i);
 }
 
-//For Each 
+//For Each loop
 arr=[1,23,6,7,987,3,4];
 arr.forEach(function(element){
   console.log(element);          // direct picking element
@@ -29,7 +29,7 @@ for(let i in arr){
   console.log(`index ${i} has value ${arr[i]}`);          // direct picking index  
 }
 
-//For of
+//For of loop
 for(let i of arr){
   console.log(i);     // direct picking element
 }
