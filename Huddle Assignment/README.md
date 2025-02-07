@@ -1,7 +1,7 @@
+# Designs are given in design folder #
+**Desktop ui**
+![screen shot](./design/desktop_design.png "screen shot")
 
-# design are given in design folder
-![screen shot](./design/desktop-design.jpg "screen shot")
-
-# mobile ui
-![screen shot](./design/mobile-design.jpg "screen shot")
+**Mobile ui**
+![screen shot](./design/mobile_design.png "screen shot")
 

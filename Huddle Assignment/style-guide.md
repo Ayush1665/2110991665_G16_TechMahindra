@@ -24,6 +24,4 @@ The designs were created to the following widths:
 
 ## Icons
 
-For the social icons, you can use a font icon library. Some suggestions can be found below:
-
 - [Icons8](https://icons8.com/)
