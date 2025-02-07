@@ -4,10 +4,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    /* background-color: #000; */
 }
 
 .html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
+    
 }
 
 /* web design css */
@@ -188,7 +191,7 @@
 
 /* body container css */
 .body-container{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding: 20px;
 }
 
@@ -203,19 +206,21 @@
 
 .description-container{
   /* border:2px solid magenta; */
-  padding: 20px;
-  height: 400px;
+  padding: 30px;
+  height: 380px;
   width: 70%;
-  background-color: rgba(0, 0, 0, 0.87);
+  border-radius: 20px;
+  background-color: #1E1E1F;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .profile-img-container{
   padding: 10px;
-  /* border: 2px solid yellow; */
-  height: 400px;
+  height: 380px;
   width: 30%;
-  
+  border-radius: 50px;
+  /* background-color: #1E1E1F; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.89);
 }
 
 .intro-text {
@@ -224,7 +229,7 @@
   font-weight: bold;
 }
 .hi{
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: rgba(200,205,25,0.9);
 }
 
@@ -236,43 +241,14 @@
 }
 
 .bio-text {
-  font-size: 1.5rem;
-  color: #555;
-  margin-top: 10px;
+  font-size: 1.4rem;
+  color: #d6d6d6;
+  margin-top: 40px;
   line-height: 1.6;
 }
 
 .img-container{
   background-color: rgba(105,100,100,0.3);
   border-radius: 50px;
-  width: 105%;
+  width: 100%;
 }
-/* 
-.skill-container{
-  display: grid;
-  gap:2rem;
-  justify-items:center;
-  align-items: center;
-  background-color: rgb(33, 35, 38);
-  color: #fff;
-}
-
-.skill-section {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 96px;
-  width: 96px;
-  background-color: #ddd;
-  border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
-}
-
-.skill img {
-  max-height: 60%; 
-  max-width: 75%;
-  object-fit: contain;
-} */
