@@ -337,7 +337,6 @@
   }
   
   .footer-content {
-    
     flex-direction: column-reverse;
     padding: 30px;
     text-align: start;
@@ -345,9 +344,8 @@
   }
 
   .footer-content h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
-
   .footer-right {
     margin-left: 0;
     margin-bottom: 90px;
@@ -355,12 +353,14 @@
   }
   .footer-right button{
     align-self: flex-end;
+    padding: 9px 20px;
   }
   .footer-right input {
-    width: 300px;
-    align-items: end;
+    width: 320px;
   }
-
+  .footer-content p{
+    font-size: 0.7rem;
+  }
   .footer-right-container {
     flex-direction: column;
     gap: 20px;
