@@ -5,22 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Electrolize&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
 </head>
 <body>
-  <div class="contact-container"></div>
-  <h1 class="contact-heading">Contact Form</h1>
-  <div class="contact-form">
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" placeholder="Enter your name" id="name">
-      <br><br>
-      <label for="email">Email:</label>
-      <input type="text" placeholder="Enter your email" id="email">
-      <br><br>
-      <label for="message">Message:</label>
-      <input type="text" placeholder="Enter your message" id="message">
-    </form>
-  </div>
+  <div class="contact-container">
+    <h1 class="contact-heading">Contact Form</h1>
+    <div class="contact-form">
+      <form>
+        <label for="name">Enter Your Name</label>
+        <input type="text" placeholder="Full name" id="name" required>
+
+        <label for="email">Enter Your Email</label>
+        <input type="email" placeholder="Email address" id="email" required>
+
+        <label for="message">Enter Your Message</label>
+        <textarea placeholder="Your message" id="message" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
   </div>
 </body>
 </html>

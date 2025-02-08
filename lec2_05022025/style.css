@@ -1,10 +1,10 @@
-*,
-*::after,
-*::before{
+*{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* background-color: #000; */
+    background-color: rgba(18, 18, 18, 1);
+    font-family: 'Poppins';
+    color: #D6D6D6;
 }
 
 .html{
@@ -28,10 +28,10 @@
 }
 
 .navbar{
-    box-shadow: 0px 5px 10px 0px #aaa;
+    box-shadow: 0px 1px 3px 0px #aaa;
     /* position: fixed; */
     width: 100%;
-    background: #fff;
+    /* background: #fff; */
     color: #000;
     opacity: 0.85;
     z-index: 100;
@@ -40,7 +40,7 @@
 .navbar-container{
     display: flex;
     justify-content: space-between;
-    height: 64px;
+    height: 80px;
     align-items: center;
 }
 
@@ -50,26 +50,27 @@
 }
 .logo{
     order: 1;
+    color: #FAFAFA;
     font-size: 2.3rem;
 }
 
 .menu-items li{
     list-style: none;
-    margin-left: 1.5rem;
+    margin-left: 3.5rem;
     font-size: 1.3rem;
 }
 
 .navbar a{
-    color: #444;
+    color: #FAFAFA;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease-in-out;
 }
 
 .navbar a:hover{
-    color: #117964;
+    color: rgb(255, 219, 112);
 }
- 
+
 
 /* responsive design */
 
@@ -210,17 +211,15 @@
   height: 380px;
   width: 70%;
   border-radius: 20px;
-  background-color: #1E1E1F;
+  /* background-color: #1E1E1F; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .profile-img-container{
-  padding: 10px;
+  padding: 60px;
   height: 380px;
   width: 30%;
-  border-radius: 50px;
-  /* background-color: #1E1E1F; */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.89);
+  
 }
 
 .intro-text {
@@ -229,7 +228,7 @@
   font-weight: bold;
 }
 .hi{
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: rgba(200,205,25,0.9);
 }
 
@@ -242,13 +241,156 @@
 
 .bio-text {
   font-size: 1.4rem;
-  color: #d6d6d6;
+  color: #D6D6D6;
   margin-top: 40px;
   line-height: 1.6;
 }
 
-.img-container{
-  background-color: rgba(105,100,100,0.3);
-  border-radius: 50px;
-  width: 100%;
+.contact-container {
+    padding: 25px;
+    border: 2px solid rgb(56, 56, 56);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: start;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+.contact-heading {
+    margin-bottom: 20px;
+    color: rgb(255, 219, 112);
+    text-align: center;
+}
+
+.contact-form label {
+    display: block;
+    margin: 12px 0 5px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 0.1px solid rgb(56, 56, 56);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 80px;
+    resize: none;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background: #202022;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.contact-form button:hover {
+    background: rgba(255, 219, 112,0.8);
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    border-color: rgb(184, 76, 78);
+    outline: none;
+}
+.contact-form button:active{
+    transform: translateY(4px);
+}
+
+.project-section{
+    padding: 50px 20px;
+}
+.section-title{
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+    text-align: center;
+    
+}
+.project-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  }
+  .project-card h2 {
+    color: #FFD700;
+    
+  }
+  .project-card img{
+    padding-top: 20px;
+    height: 200px;
+    width: 250px;
+    transform: 0.3s;
+  }
+  .project-card p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #D6D6D6B2
+  }
+  .project-card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  .project-card a:hover {
+    color: #FFA500;
+  }
+  .project-card:hover{
+    transform:scale(1.1);
+  }
+
+  .skills {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  .skills h2{
+    font-size: 2.5rem;
+    
+  }
+  .skill-card {
+    width: 170px;
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  .skill-card img{
+    height: 70px;
+    width: 70px;
+  }
+  .skill-card:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+  
